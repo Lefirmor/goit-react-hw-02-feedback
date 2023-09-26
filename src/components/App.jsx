@@ -1,16 +1,13 @@
+import { Header } from './Header/Header';
+import Counter from './ButtonGroup/ButtonGroup';
+import { SubHeader } from './SubHeader/SubHeader';
+import { Statistics } from './Statistics/Statistics';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Header />
+
+      <Statistics />
     </div>
   );
 };
