@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import css from './Header.module.css';
 export const Header = () => {
   return (
